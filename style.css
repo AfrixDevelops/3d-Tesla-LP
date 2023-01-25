@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Lato", sans-serif;
+    
+}
+
+.hero{
+    height: 100vh;
+    position: relative;
+    color: rgb(255, 255, 255);
+
+}
+
+.about{
+    height: 100vh;
+    position: relative;
+    background-color:#dbdfe5 ;
+    color: #2e2b2a;
+    padding: 5rem;
+
+}
+
+.hero video{
+    width: 100%;
+    top: -5vh;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.h_title{
+    position: absolute;
+    z-index: 2;
+    top:25%;
+    left:51%;
+    transform: translate(-50%, -50%);    
+}
+
+.h_subtitle{
+    
+    position: absolute;
+    z-index: 2;
+    top:88%;
+    left:51%;
+    transform: translate(-50%, -50%);    
+}
+
+
+.h_title{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 20px;
+    
+}
+
+.h_subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    margin: 3.5rem 0rem;
+    font-weight: 300;
+    color: #2e2b2a;
+}
+
+.hero .tsl-logo{
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+    top:15%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.col{
+    
+    padding: 1rem;
+}
+
+
+
+.right{
+    width:100%;
+    padding: 3rem;
+
+}
+
+.col-2-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.left{
+    width:100%;
+    padding: 3rem;
+
+}
+
+.about-h2{
+    font-size: 2.3rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .5rem;
+
+}
+p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.col-1-copy {
+    margin-bottom: 2rem;
+}
+
+.btn{
+    background-color: #e82127; 
+    border-radius: 10px; 
+    border: 1px solid #e82127; 
+    color: white; 
+    font-size: 15px; 
+    padding: 15px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    
+.btn:hover{ 
+    background-color: #2e2b2a; 
+    color: white; 
+    border-color: #2e2b2a; 
+    transition: 0.3s; 
+   }
+        
+
+
+.s_title{
+    position: absolute;
+    z-index: 2;
+    top: 38%;
+    left: 55%;
+    /* transform: translate(-50%, -50%); */
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.s_subtitle{
+    position: absolute;
+    z-index: 2;
+    top:88%;
+    left:51%;
+    transform: translate(-50%, -50%);  
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    margin: 3.5rem 0rem;
+    font-weight: 200;
+    color: #2e2b2a;
+
+}
+
+footer{
+    padding:6rem;
+    height: 30vh;
+    background-color: #2e2b2a;
+
+}
+
+footer p{
+    text-align: center;
+    color: #ffedee;
+}
+
+.tiny-txt{
+    font-size: .9rem;
+    padding-top: 1rem;
+}
+
+.afxlogo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
